@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     
     int number,f; //number is an integer
     
-    cout << "Hello! please indicate how many numbers you would like!" << endl;
+    cout << "Hello! please indicate how many numbers you would like!\n" ; //print out
     
     cin >> f;
     
@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
         cout << " 1 " << number; //idicate operation to test
         f = f - 1; //loop decrement
     }
-    cout << "\n" << endl;
+    cout << "\n";
     
     return 0;
 }
